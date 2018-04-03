@@ -1,0 +1,198 @@
+html * {
+  max-height: 999999px;
+}
+body {
+  background:#fefefe;
+  font-family:'Quicksand', sans-serif;
+  border:none;
+  margin:0px;
+  padding:0px;
+}
+h1 {
+  text-transform: uppercase;
+  text-align:center;
+  font-size:32px;
+  font-weight:200;
+  letter-spacing: 0.4em;
+  padding-top:0.25em;
+  padding-bottom:0.25em;
+}
+h2 {
+  text-align:center;
+  font-size:12px;
+  font-weight:600;
+  letter-spacing: 0.4em;
+}
+h3 {
+  text-align:center;
+  font-size:24px;
+  font-weight:600;
+  letter-spacing: 0.4em;
+  padding-top:1em;
+  padding-bottom:0.5em;
+}
+a {
+  color:#000000;
+  text-decoration:none;
+}
+div.menu {
+  padding-left:10%;
+  padding-right:10%;
+  padding-top:0px;
+  -webkit-columns:4 5em;
+  -moz-columns:4 5em;
+  columns:4 5em;
+  -webkit-column-gap:64px; /* Chrome, Safari, Opera */
+  -moz-column-gap:64px; /* Firefox */
+  column-gap:64px;
+  -webkit-margin-bottom-collapse:separate;
+}
+div.menu_item {
+  text-align:center;
+  -webkit-column-break-inside:avoid; /* Chrome, Safari */
+  page-break-inside:avoid;           /* Theoretically FF 20+ */
+  break-inside:avoid-column;         /* IE 11 */
+  display:table;                     /* Actually FF 20+ */
+  padding:0px;
+  width:100%;
+}
+div.menu div.current_page_item {
+  text-decoration:underline;
+}
+div.home {
+  padding-top:64px;
+  padding-bottom:64px;
+}
+div.home div.eye_catcher {
+  width:60%;
+  max-width:850px;
+  margin:0 auto;
+}
+div.home div.eye_catcher img {
+  width:49%;
+  max-width:400px;
+  margin:0;
+}
+div.collections {
+  margin-left:20%;
+  margin-right:20%;
+  padding-top:64px;
+  -webkit-columns:3 10em;
+  -moz-columns:3 10em;
+  columns:3 10em;
+  -webkit-column-gap:64px; /* Chrome, Safari, Opera */
+  -moz-column-gap:64px; /* Firefox */
+  column-gap:64px;
+  -webkit-margin-bottom-collapse:separate;
+}
+div.collections div.collection {
+  padding:0px;
+  padding-bottom:64px;
+  -webkit-column-break-inside:avoid; /* Chrome, Safari */
+  page-break-inside:avoid;           /* Theoretically FF 20+ */
+  break-inside:avoid-column;         /* IE 11 */
+  display:table;                     /* Actually FF 20+ */
+  width:100%;
+  max-width:400px;
+  margin:0 auto;
+}
+div.collections div.collection img {
+  padding-bottom:128px;
+}
+div.collection_details {
+  width:50%;
+  margin:auto;
+  padding-top:64px;
+  -webkit-columns:2 15em;
+  -moz-columns:2 15em;
+  columns:2 15em;
+  -webkit-column-gap:64px; /* Chrome, Safari, Opera */
+  -moz-column-gap:64px; /* Firefox */
+  column-gap:64px;
+  -webkit-margin-bottom-collapse:separate;
+}
+div.collection_details div.collection_detail {
+  padding:0px;
+  padding-bottom:64px;
+  -webkit-column-break-inside:avoid; /* Chrome, Safari */
+  page-break-inside:avoid;           /* Theoretically FF 20+ */
+  break-inside:avoid-column;         /* IE 11 */
+  display:table;                     /* Actually FF 20+ */
+  width:100%;
+  max-width:400px;
+  margin:0 auto;
+}
+div.collection_details div.collection_detail img {
+  padding-bottom:128px;
+}
+div.type {
+  text-align:center;
+  text-transform: uppercase;
+  padding:0px;
+  margin:0;
+}
+div.name {
+  text-align:center;
+  padding:0px;
+  margin:0;
+}
+div.season{
+  text-align:center;
+  font-family:'Oswald', sans-serif;
+  text-transform: uppercase;
+  padding:0px;
+  margin:0;
+}
+div.year{
+  text-align:center;
+  padding:0px;
+  margin:0;
+}
+.collection img {
+  width:100%;
+  max-width:800px;
+}
+.collection_detail img {
+  width:100%;
+  max-width:800px;
+}
+.gallery img {
+  width:100%;
+  max-width:800px;
+}
+.popup {
+  width: 500px;
+  height: 180px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: rgba(255,255,255,0.9);
+  z-index: 2;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+div.gallery table {
+  border-collapse: separate;
+  border-spacing:1cm 0.5cm;
+}
+.research {
+  width:100%;
+}
+.research_img {
+  padding-left:40%;
+  padding-right:40%;
+}
+#content {
+  width:50%;
+  margin:auto;
+}
+.block {
+
+  padding-top:50px;
+}

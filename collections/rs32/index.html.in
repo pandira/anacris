@@ -1,0 +1,27 @@
+{{header}}
+
+<div class="collection_details">
+  <a href="collections/rs32/collection">
+    <div class="collection_detail">
+      <img src="gallery/images/rs32/cover collection.jpg"></img>
+      <div class="type">collection</div>
+      <div class="name">rs32</div>
+      <div class="season">Spring/Summer</div>
+      <div class="year">2012</div>
+    </div>
+  </a>
+  <a href="collections/rs32/research">
+    <div class="collection_detail">
+      <img src="gallery/images/rs32/cover research.jpg"></img>
+      <div class="type">research</div>
+      <div class="name">rs32</div>
+      <div class="season">Spring/Summer</div>
+      <div class="year">2012</div>
+    </div>
+  </a>
+</div>
+
+<script language="javascript">var current_page="collections"</script>
+
+{{footer}}
+

@@ -1,0 +1,40 @@
+<div id="sidebar">
+  <div id="logo">
+  </div>
+  <div id="menu">
+    <ul>
+      <li id="link_about">
+        <a href="../about">About</a>
+      </li>
+      <li id="link_publications">
+        <a href="../publications">Publications</a>
+      </li>
+      <li id="link_research">
+        <a href="../research">Research</a>
+      </li>
+      <li id="link_teaching">
+        <a href="../teaching">Teaching</a>
+      </li>
+      <li id="link_contact">
+        <a href="../contact">Contact</a>
+      </li>
+      <script language="javascript">
+
+function highlight_menu() {
+
+  if (current_page == "about")
+    document.getElementById("link_about").setAttribute("class", "current_page_item");
+  if (current_page == "publications")
+    document.getElementById("link_publications").setAttribute("class", "current_page_item");
+  if (current_page == "research")
+    document.getElementById("link_research").setAttribute("class", "current_page_item");
+  if (current_page == "teaching")
+    document.getElementById("link_teaching").setAttribute("class", "current_page_item");
+  if (current_page == "contact")
+    document.getElementById("link_contact").setAttribute("class", "current_page_item");
+}
+
+      </script>
+    </ul>
+  </div>
+</div>

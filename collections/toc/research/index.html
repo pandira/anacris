@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="keywords" content="fashion design ana cristina pascual" />
+    <meta name="description" content="Portfolio of Ana Cristina Pascual" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Ana Cristina Pascual</title>
+    <base href="http://pandira.org/anacris/" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="gallery/flexslider/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+  </head>
+  <body>
+    <h1 id="title">
+      Ana Cristina Pascual
+    </h1>
+    <div class="menu">
+      <div id="link_home" class="menu_item">
+        <a href="home">
+        <h2>home</h2>
+        </a>
+      </div>
+      <div id="link_collections" class="menu_item">
+        <a href="collections">
+        <h2>collections</h2>
+        </a>
+      </div>
+      <div id="link_about" class="menu_item">
+        <a href="about">
+        <h2>about</h2>
+        </a>
+      </div>
+      <div id="link_contact" class="menu_item">
+        <a href="contact">
+        <h2>contact</h2>
+        </a>
+      </div>
+      <script language="javascript">
+        function highlight_menu() {
+          document.getElementById("link_" + current_page).setAttribute("class", "menu_item current_page_item");
+        }
+      </script>
+    </div>
+
+<div class="research">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <div class="research_img">
+          <img src="gallery/images/toc/inspi t.o.c_2.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+        <img src="gallery/images/toc/inspi t.o.c_3.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+        <img src="gallery/images/toc/inspi t.o.c_4.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+        <img src="gallery/images/toc/inspi t.o.c_5.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+        <img src="gallery/images/toc/inspi t.o.c_6.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+        <img src="gallery/images/toc/inspi t.o.c_7.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+        <img src="gallery/images/toc/inspi t.o.c_8.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+        <img src="gallery/images/toc/inspi t.o.c_9.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+        <img src="gallery/images/toc/line up toc.jpg"></img>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script language="javascript">var current_page="collections"</script>
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+<!-- FlexSlider -->
+<script defer src="gallery/flexslider/jquery.flexslider.js"></script>
+
+<script type="text/javascript">
+  $(window).load(function(){
+    $('.flexslider').flexslider({
+      animation: "slide",
+      //animationLoop: false,
+      animationSpeed: 2000,
+      slideshowSpeed: 3000,
+      //itemWidth: 500,
+      //itemMargin: 1000,
+      //minItems: 1,
+      //maxItems: 1,
+      //move: 1,
+      //pausePlay: false,
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
+  });
+</script>
+<div id="footer">
+  <p>&copy; 2016 Ana Cristina Pascual.</p>
+</div>
+<script>
+window.onload=highlight_menu;
+</script>
+</body>
+</html>

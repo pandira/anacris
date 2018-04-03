@@ -1,0 +1,76 @@
+{{header}}
+
+<div class="gallery">
+  <table>
+    <tr>
+      <td>
+        <img src="gallery/images/identity/Look 3 identity.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/Look 1 identity.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/Look2 identity.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/identity/identity middle left.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/identity middle.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/identity middle right.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/identity/identity det..jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/identity det._2.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/identity det._1.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/identity/identity_3.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/identity.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/identity_1.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/identity/identity pic 1.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/identity pic 2.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/identity pic 3.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/identity/identity pic 4.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/identity pic 5.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/identity/identity pic 6.jpg"></img>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<script language="javascript">var current_page="collections"</script>
+
+{{footer}}

@@ -1,0 +1,60 @@
+{{header}}
+
+<div class="gallery">
+
+<div class="research">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <div class="research_img">
+          <img src="gallery/images/identity/inspi identity_4.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+          <img src="gallery/images/identity/inspi identity_5.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+          <img src="gallery/images/identity/inspi identity_6.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+          <img src="gallery/images/identity/inspi identity_7.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+          <img src="gallery/images/identity/inspi identity_8.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+          <img src="gallery/images/identity/inspi identity_9.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+          <img src="gallery/images/identity/inspi identity_10.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+          <img src="gallery/images/identity/inspi identity_11.jpg"></img>
+        </div>
+      </li>
+      <li>
+        <div class="research_img">
+          <img src="gallery/images/identity/Line up IDENTITY.jpg"></img>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<script language="javascript">var current_page="collections"</script>
+
+{{flexslider}}
+{{footer}}

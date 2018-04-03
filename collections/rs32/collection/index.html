@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="keywords" content="fashion design ana cristina pascual" />
+    <meta name="description" content="Portfolio of Ana Cristina Pascual" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Ana Cristina Pascual</title>
+    <base href="http://pandira.org/anacris/" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="gallery/flexslider/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+  </head>
+  <body>
+    <h1 id="title">
+      Ana Cristina Pascual
+    </h1>
+    <div class="menu">
+      <div id="link_home" class="menu_item">
+        <a href="home">
+        <h2>home</h2>
+        </a>
+      </div>
+      <div id="link_collections" class="menu_item">
+        <a href="collections">
+        <h2>collections</h2>
+        </a>
+      </div>
+      <div id="link_about" class="menu_item">
+        <a href="about">
+        <h2>about</h2>
+        </a>
+      </div>
+      <div id="link_contact" class="menu_item">
+        <a href="contact">
+        <h2>contact</h2>
+        </a>
+      </div>
+      <script language="javascript">
+        function highlight_menu() {
+          document.getElementById("link_" + current_page).setAttribute("class", "menu_item current_page_item");
+        }
+      </script>
+    </div>
+
+<div class="gallery">
+  <table>
+    <tr>
+      <td>
+        <img src="gallery/images/rs32/collection_1.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/rs32/collection.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/rs32/DSC_4381.JPG"></img>
+      </td>
+      <td>
+        <img src="gallery/images/rs32/DSC_4952_2.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/rs32/DSC_4965_2.jpg"></img>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<script language="javascript">var current_page="collections"</script>
+
+<div id="footer">
+  <p>&copy; 2016 Ana Cristina Pascual.</p>
+</div>
+<script>
+window.onload=highlight_menu;
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{{header}}
+
+<div class="collections">
+  <a href="collections/identity">
+    <div class="collection">
+      <img src="gallery/images/identity/Portada identity collection.jpg"></img>
+      <div class="name">identity</div>
+      <div class="season">Spring/Summer</div>
+      <div class="year">2016</div>
+    </div>
+  </a>
+  <a href="collections/toc">
+    <div class="collection">
+      <img src="gallery/images/toc/Portada O.C.D.jpg"></img>
+      <div class="name">t.o.c.</div>
+      <div class="season">Spring/Summer</div>
+      <div class="year">2013</div>
+    </div>
+  </a>
+  <a href="collections/rs32">
+    <div class="collection">
+      <img src="gallery/images/rs32/cover collection.jpg"></img>
+      <div class="name">rs32</div>
+      <div class="season">Spring/Summer</div>
+      <div class="year">2012</div>
+    </div>
+  </a>
+</div>
+
+<script language="javascript">var current_page="collections"</script>
+
+{{footer}}

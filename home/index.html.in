@@ -1,0 +1,12 @@
+{{header}}
+
+<div class="home">
+  <div class="eye_catcher">
+    <img src="gallery/images/identity/identity home.jpg"></img>
+    <img src="gallery/images/identity/identity home 1.jpg"></img>
+  </div>
+</div>
+
+<script language="javascript">var current_page="home"</script>
+
+{{footer}}

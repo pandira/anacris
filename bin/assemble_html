@@ -1,0 +1,47 @@
+#!/usr/bin/ruby
+
+def assemble(infile)
+
+  content = File.open(infile, "rb").read
+
+  includes = []
+
+  # find include like {{includename}} in the file
+  content.scan(/\{\{(.*?)\}\}/) { |inc| includes << inc[0].to_s }
+
+  includes.each do |inc|
+
+    # get the name of the include file
+    filename = $template_dir + "/" + inc + ".html"
+    filename += ".in" if not File.exists?(filename)
+
+    # see, if it exists
+    if not File.exists?(filename)
+
+      puts "no template #{inc} found in template directory #{$template_dir}"
+      exit -1
+
+    end
+
+    # process the content of the include file
+    inccontent = assemble(filename)
+
+    # fill it in the original content
+    content.gsub!(Regexp.new('\{\{' + inc + '\}\}'), inccontent)
+
+  end
+
+  return content.strip
+end
+
+if ARGV.length < 3
+
+  puts "usage: assemble_html <template_dir> <infile> <outfile>"
+  exit -1
+end
+
+$template_dir = ARGV[0]
+infile       = ARGV[1]
+outfile      = ARGV[2]
+
+File.open(outfile, "w").write(assemble(infile))

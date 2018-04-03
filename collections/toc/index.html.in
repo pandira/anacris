@@ -1,0 +1,27 @@
+{{header}}
+
+<div class="collection_details">
+  <a href="collections/toc/collection">
+    <div class="collection_detail">
+      <img src="gallery/images/toc/Portada O.C.D.jpg"></img>
+      <div class="type">collection</div>
+      <div class="name">t.o.c.</div>
+      <div class="season">Spring/Summer</div>
+      <div class="year">2013</div>
+    </div>
+  </a>
+  <a href="collections/toc/research">
+    <div class="collection_detail">
+      <img src="gallery/images/toc/portada inspi o.c.d.jpg"></img>
+      <div class="type">research</div>
+      <div class="name">t.o.c.</div>
+      <div class="season">Spring/Summer</div>
+      <div class="year">2013</div>
+    </div>
+  </a>
+</div>
+
+<script language="javascript">var current_page="collections"</script>
+
+{{footer}}
+

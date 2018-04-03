@@ -1,0 +1,29 @@
+{{header}}
+
+<div class="gallery">
+  <table>
+    <tr>
+      <td>
+        <img src="gallery/images/rs32/collection_1.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/rs32/collection.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/rs32/DSC_4381.JPG"></img>
+      </td>
+      <td>
+        <img src="gallery/images/rs32/DSC_4952_2.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/rs32/DSC_4965_2.jpg"></img>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<script language="javascript">var current_page="collections"</script>
+
+{{footer}}
