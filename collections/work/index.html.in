@@ -1,0 +1,25 @@
+{{header}}
+
+<div class="collections">
+  <a href="collections/work/lefties">
+    <div class="collection">
+      <img src="gallery/images/lefties/01_LEFTIES_WOMAN SUMMER_WHITE OASIS.jpg"></img>
+      <div class="name">lefties</div>
+      <div class="season">Summer</div>
+      <div class="year">2018</div>
+    </div>
+  </a>
+  <a href="collections/work/baby">
+    <div class="collection">
+      <img src="gallery/images/baby/Baby capsule collection 1.jpg"></img>
+      <div class="name">babies</div>
+      <div class="season">Summer</div>
+      <div class="year">2017</div>
+    </div>
+  </a>
+</div>
+
+<script language="javascript">var current_page="collections"</script>
+
+{{footer}}
+
