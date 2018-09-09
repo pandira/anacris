@@ -202,3 +202,9 @@ div.post {
   padding-bottom:50px;
   margin:auto;
 }
+
+.flexslider .slides img {
+  width: auto;
+  height: 600px;
+  display: block;
+}
