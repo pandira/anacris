@@ -1,0 +1,64 @@
+{{header}}
+
+<div class="gallery">
+  <table>
+    <tr>
+      <td>
+        <img src="gallery/images/baby/Baby capsule collection 1.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/baby/Baby capsule collection 2.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/baby/Baby girl xmas 2.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/baby/Baby x-mas collection 1.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/baby/1063711406_1_1_1.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/baby/1165525809_1_1_1.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/baby/look1-look1.st.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/baby/look9-look9.st.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/baby/1165504959_1_1_1 (2).jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/baby/1165508696_1_1_1 (2).jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/baby/1165549537_1_1_1.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/baby/5516502400_1_1_1.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/baby/6224569644_1_1_1.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/baby/7947500696_1_1_1.jpg"></img>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<script language="javascript">var current_page="collections"</script>
+
+{{footer}}
