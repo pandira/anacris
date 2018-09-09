@@ -1,0 +1,74 @@
+{{header}}
+
+<div class="gallery">
+  <table>
+    <tr>
+      <td>
+        <img src="gallery/images/lefties/Lefties 1.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/lefties/Lefties 2.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/lefties/Lefties 3.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/lefties/Lefties 4.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/lefties/Lefties 5.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/lefties/Lefties 6.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/lefties/Lefties 7.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/lefties/Lefties 8.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/lefties/Lefties 9.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/lefties/Lefties 10.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/lefties/Lefties 11.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/lefties/Lefties 12.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/lefties/Lefties 13.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/lefties/Lefties 14.jpg"></img>
+      </td>
+      <td>
+        <img src="gallery/images/lefties/Lefties 15.jpg"></img>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="gallery/images/lefties/Lefties 19.jpg"></img>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<script language="javascript">var current_page="collections"</script>
+
+{{footer}}

@@ -1,6 +1,14 @@
 {{header}}
 
 <div class="collections">
+  <a href="collections/lefties">
+    <div class="collection">
+      <img src="gallery/images/lefties/01_LEFTIES_WOMAN SUMMER_WHITE OASIS.jpg"></img>
+      <div class="name">lefties</div>
+      <div class="season">Spring/Summer</div>
+      <div class="year">2018</div>
+    </div>
+  </a>
   <a href="collections/identity">
     <div class="collection">
       <img src="gallery/images/identity/Portada identity collection.jpg"></img>
